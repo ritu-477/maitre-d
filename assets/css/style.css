@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+.font_worksans{
+    font-family: 'Work Sans',sans-serif;
+}
+.font-800{
+    font-weight: 800;
+}
+.font-700 {
+    font-weight: 700;
+}
+.font-600 {
+    font-weight: 600;
+}
+.font-400 {
+    font-weight: 400;
+}
+/* ..................line-height.................... */
+.line-h71{
+    line-height: 71.76px;
+}
+.line-h46 {
+    line-height: 46.92px;
+}
+.line-h36 {
+    line-height: 36.96px;
+}
+.line-h30 {
+    line-height: 30.76px;
+}
+.line-h27 {
+    line-height: 27.95px;
+}
+.line-h26 {
+    line-height: 26.93px;
+}
+.line-h24 {
+    line-height: 24.64px;
+}
+.line-h23 {
+    line-height: 23.46px;
+}
+.line-h21 {
+    line-height: 21.53px;
+}
+.line-h18 {
+    line-height: 18.77px;
+}
+/* ............max-w.............. */
+.max-w453{
+    max-width: 453px;
+}
+.max-w484 {
+    max-width: 484px;
+}
+.max-w257 {
+    max-width: 257px;
+}
+.max-w218 {
+    max-width: 218px;
+}
+.opacity-70{
+    opacity: 70%;
+}
+/* ......................................header-section.................................. */
+/* .bg-image1{
+
+} */
+.bg-image1{
+    background-image: url("../images/headerbg-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed;
+    height: 100%; */
+}
+.py-128{
+    padding-top: 128px;
+    padding-bottom: 103px;
+}
+.max-w729{
+    max-width: 729px;
+}
+.btn-sumbit{
+    padding: 12px 38px;
+    background: linear-gradient(96.64deg, var(--fc-linear-orange1) 13.58%, var(--fc-linear-orange2) 86.99%);
+    border-radius: 30.5px;
+    border: 1px solid var(--fc-linear-orange1);
+    transition: 1s;
+}
+.btn-sumbit:hover{
+    background: var(--fc-white);
+    color: var(--fc-linear-orange1); 
+}
+.pb-59{
+    padding-bottom: 59px;
+}
+/* .absolute1{
+    top: 0;
+    position: absolute;
+} */
