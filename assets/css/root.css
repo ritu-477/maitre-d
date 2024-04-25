@@ -7,7 +7,7 @@
     --fs-md: 23.83px;
     --fs-xlg: 24px;
     --fs-lg: 30px;
-    --fs-xl: 41px;
+    --fs-xl: 36px;
     /* font-color */
     --fc-black: #000000;
     --fc-white: #fff;
@@ -62,17 +62,17 @@
 }
 
 /* ...............................media-quries */
-/* @media(min-width:576px) {
+@media(min-width:576px) {
     :root {
         
         --fs-lg: 40px;
-        --fs-xl: 55px;
+        --fs-xl: 45px;
     }
 }
 
 @media(min-width:768px) {
     :root {
-        --fs-xl: 60px;
+        --fs-xl: 61px;
     }
 }
 
@@ -80,4 +80,4 @@
     :root {
         --fs-lg: 50px;
     }
-} */
+}
