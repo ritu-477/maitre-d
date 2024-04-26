@@ -205,6 +205,7 @@
 .pt_10 {
     padding-top: 10px;
 }
+
 .absolute2 {
     position: absolute;
     bottom: 0;
@@ -218,7 +219,7 @@
 }
 
 .card-box:hover {
-    background: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%);
+    background: linear-gradient(96.64deg, var(--fc-linear-orange1) 13.58%, var(--fc-linear-orange2) 86.99%);
     transform: translateY(-20px);
 }
 
@@ -233,14 +234,28 @@
 .card-box:hover svg path {
     fill: url(#gradient);
 }
-.py-48{
+
+.py-48 {
     padding-top: 48px;
     padding-bottom: 48px;
 }
-.pt_40{
+
+.pt_40 {
     padding-top: 40px;
 }
 
+.btn-signup {
+    padding: 12px 37px;
+    background: linear-gradient(96.64deg, var(--fc-linear-orange1) 13.58%, var(--fc-linear-orange2) 86.99%);
+    border-radius: 30.5px;
+    border: 1px solid var(--fc-linear-orange1);
+    transition: 1s;
+    margin-top: 43px;
+}
+.btn-signup:hover {
+    background: var(--fc-white);
+    color: var(--fc-linear-orange1);
+}
 
 
 
@@ -301,9 +316,10 @@
         padding-top: 90px;
         padding-bottom: 90px;
     }
-        .pt_sm_78 {
-            padding-top: 78px;
-        }
+
+    .pt_sm_78 {
+        padding-top: 78px;
+    }
 }
 
 @media(min-width:768px) {
