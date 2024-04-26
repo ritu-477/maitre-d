@@ -258,8 +258,6 @@
 }
 
 
-
-
 @media(max-width:991.99px) {
     .iconbox {
         width: 30px;
@@ -353,6 +351,11 @@
         padding-top: none;
         padding-bottom: none;
     }
+        .absolute4 {
+            position: absolute;
+            right: 14%;
+            top: 24%;
+        }
 }
 
 @media(min-width:1200px) {
@@ -365,6 +368,11 @@
     .h_210 {
         height: 210px
     }
+        .absolute4 {
+            position: absolute;
+            right: 20%;
+            top: 29%;
+        }
 }
 
 @media(min-width:1400px) {
@@ -373,4 +381,16 @@
         top: 49%;
         left: 17%;
     }
+        .absolute4 {
+            position: absolute;
+            right: 22%;
+            top: 29%;
+        }
+}
+@media(min-width:1750px){
+    .absolute4 {
+            position: absolute;
+            right: 28%;
+            top: 29%;
+        }
 }
