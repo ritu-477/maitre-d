@@ -164,7 +164,11 @@
 .pb_14 {
     padding-bottom: 14px;
 }
+/* ........................................section-3-features.......................... */
+.bg-clr1{
+    background: var(--fc-primary-white);
 
+}
 
 
 
