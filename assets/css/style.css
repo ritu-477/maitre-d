@@ -70,9 +70,6 @@
 }
 
 /* ............max-w.............. */
-.max-w453 {
-    max-width: 453px;
-}
 
 .max-w484 {
     max-width: 484px;
@@ -86,14 +83,12 @@
     max-width: 218px;
 }
 
-.opacity-70 {
+.opacity_70 {
     opacity: 70%;
 }
 
 /* ......................................header-section.................................. */
-/* .bg-image1{
 
-} */
 .bg-image1 {
     background-image: url("../images/headerbg-image.png");
     background-position: center;
@@ -108,9 +103,17 @@
     padding-bottom: 103px;
 }
 
-.max-w729 {
-    max-width: 729px;
+.max-w443 {
+    max-width: 443px;
 }
+
+/* .max-w1140{
+    max-width: 1140px;
+} */
+
+/* .max-w729 {
+    max-width: 729px;
+} */
 
 .btn-sumbit {
     padding: 12px 38px;
@@ -127,6 +130,39 @@
 
 .pb-30 {
     padding-bottom: 30px;
+}
+
+/* .............................section-2 about-us.................. */
+.gradient-text {
+    background-image: linear-gradient(96.64deg, var(--fc-linear-orange1), var(--fc-linear-orange2)86.99%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+
+}
+
+.gradient-text {
+    position: relative;
+}
+
+.line-1::after {
+    content: "";
+    width: 44px;
+    height: 1px;
+    position: absolute;
+    margin-left: 12px;
+    top: 10px;
+    background: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%);
+}
+
+.pt_12 {
+    padding-top: 12px;
+}
+
+.pb_14 {
+    padding-bottom: 14px;
 }
 
 
@@ -186,40 +222,47 @@
         line-height: 71.76px;
     }
 }
-@media(min-width:768px){
+
+@media(min-width:768px) {
     .py-128 {
-            padding-top: 80px;
-            padding-bottom: 103px;
-        }
+        padding-top: 80px;
+        padding-bottom: 103px;
+    }
 }
 
 @media(min-width:992px) {
     .py-128 {
-            padding-top: 128px;
-            padding-bottom: 103px;
-        }
+        padding-top: 128px;
+        padding-bottom: 103px;
+    }
+
     .absolute1 {
         position: absolute;
-        top: 44%;
-        left: 18%;
+        top: 49%;
+        left: 5%;
     }
-        .pb-sm-59 {
-            padding-bottom: 59px;
-        }
+
+    .pb-sm-59 {
+        padding-bottom: 59px;
+    }
+
+    .max-w453 {
+        max-width: 453px;
+    }
 }
 
 @media(min-width:1200px) {
     .absolute1 {
         position: absolute;
-        top: 44%;
-        left: 23%;
+        top: 49%;
+        left: 12%;
     }
 }
 
 @media(min-width:1400px) {
     .absolute1 {
         position: absolute;
-        top: 44%;
-        left: 27%;
+        top: 49%;
+        left: 17%;
     }
 }

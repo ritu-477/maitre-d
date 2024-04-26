@@ -18,30 +18,36 @@
         <!-- <div class="parallax"></div> -->
         <nav>
             <div class="container py-3">
-               <div class="d-flex justify-content-between align-items-center">
-                <div class="d-flex align-items-center gap-2">
-                    <img src="./assets/images/logo-icon.png" alt="logo">
-                    <a class="font-400 clr-black line-h27 text-23 font_worksans" href="">maître d</a>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center gap-2">
+                        <img src="./assets/images/logo-icon.png" alt="logo">
+                        <a class="font-400 clr-black line-h27 text-23 font_worksans" href="">maître d</a>
+                    </div>
+                    <div class="iconbox" onclick="openNav()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="d-flex align-items-center ps-0 gap-5 mb-0 menulist" id="navbar">
+                        <li><a class="font-400 clr-black line-h18 text-16 font_worksans" onclick="openNav()"
+                                href="">Home</a></li>
+                        <li><a class="font-400 clr-black line-h18 text-16 font_worksans" onclick="openNav()"
+                                href="">Modules</a></li>
+                        <li><a class="font-400 clr-black line-h18 text-16 font_worksans" onclick="openNav()"
+                                href="">Pricing</a></li>
+                        <li><a class="font-400 clr-black line-h18 text-16 font_worksans" onclick="openNav()"
+                                href="">Features</a></li>
+                        <li><a class="font-400 clr-black line-h18 text-16 font_worksans" onclick="openNav()"
+                                href="">Contact Us</a></li>
+                        <li><a onclick="openNav()" href=""><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.70898 16.418C10.484 16.4176 12.2078 15.8234 13.606 14.73L18.002 19.126L19.416 17.712L15.02 13.316C16.114 11.9176 16.7086 10.1934 16.709 8.41797C16.709 4.00697 13.12 0.417969 8.70898 0.417969C4.29798 0.417969 0.708984 4.00697 0.708984 8.41797C0.708984 12.829 4.29798 16.418 8.70898 16.418ZM8.70898 2.41797C12.018 2.41797 14.709 5.10897 14.709 8.41797C14.709 11.727 12.018 14.418 8.70898 14.418C5.39998 14.418 2.70898 11.727 2.70898 8.41797C2.70898 5.10897 5.39998 2.41797 8.70898 2.41797Z"
+                                        fill="black" />
+                                </svg>
+                            </a></li>
+                    </ul>
                 </div>
-                <div class="iconbox" onclick="openNav()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <ul class="d-flex align-items-center ps-0 gap-5 mb-0 menulist" id="navbar">
-                    <li><a class="font-400 clr-black line-h18 text-16 font_worksans" onclick="openNav()" href="">Home</a></li>
-                    <li><a class="font-400 clr-black line-h18 text-16 font_worksans" onclick="openNav()" href="">Modules</a></li>
-                    <li><a class="font-400 clr-black line-h18 text-16 font_worksans" onclick="openNav()" href="">Pricing</a></li>
-                    <li><a class="font-400 clr-black line-h18 text-16 font_worksans" onclick="openNav()" href="">Features</a></li>
-                    <li><a class="font-400 clr-black line-h18 text-16 font_worksans" onclick="openNav()" href="">Contact Us</a></li>
-                    <li><a onclick="openNav()" href=""><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M8.70898 16.418C10.484 16.4176 12.2078 15.8234 13.606 14.73L18.002 19.126L19.416 17.712L15.02 13.316C16.114 11.9176 16.7086 10.1934 16.709 8.41797C16.709 4.00697 13.12 0.417969 8.70898 0.417969C4.29798 0.417969 0.708984 4.00697 0.708984 8.41797C0.708984 12.829 4.29798 16.418 8.70898 16.418ZM8.70898 2.41797C12.018 2.41797 14.709 5.10897 14.709 8.41797C14.709 11.727 12.018 14.418 8.70898 14.418C5.39998 14.418 2.70898 11.727 2.70898 8.41797C2.70898 5.10897 5.39998 2.41797 8.70898 2.41797Z"
-                                    fill="black" />
-                            </svg>
-                        </a></li>
-                </ul>
-               </div>
             </div>
         </nav>
         <div class="container py-128 position-relative">
@@ -54,16 +60,41 @@
 
             </div>
             <div class="d-flex justify-content-center align-items-center flex-column">
-                <h2 class="text-61 line-h71 font_worksans font-800 clr-black mb-0 max-w729 text-center pb-30 pb-sm-59">Maitre D – Store <br>
+                <h2 class="text-61 line-h71 font_worksans font-800 clr-black mb-0 max-w729 text-center pb-30 pb-sm-59">
+                    Maitre D – Store <br>
                     Management for Barbers</h2>
                 <button class="font-700 text-20 line-h23 font_worksans clr-white btn-sumbit">Submit</button>
             </div>
-         
+
         </div>
     </header>
     <section>
-                    <img src="./assets/images/bg-layer1.png" alt="layer" class="w-100">
-            
+        <img src="./assets/images/bg-layer1.png" alt="layer" class="w-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 d-flex justify-content-center">
+                    <img src="./assets/images/aboutus-img.png" alt="about" class="w-100 max-w443">
+                </div>
+                <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center flex-column pt-5 pt-lg-0">
+                    <div class="blank">
+                        <p class="mb-0  font-600 font_worksans line-h18 text-16 line-1 position-relative pb_14">
+                            <span class="gradient-text">About Us</span></p>
+                        <h3 class="mb-0 font-700 text-40 line-h46 font_worksans">What is <span class="gradient-text">Maître D?</span></h3>
+                        <p class="mb-0 max-w453 text-16 font-400 line-h26 font_worksans opacity_70 clr-gray pt_12">Maître D is a full service solution, designed specifically for salons and
+                            barbershops. Our approach is 
+                            modular, which
+                            means you only pay for the functionality that you need. Each module is completely integrated
+                            into the solution, so
+                            your
+                            entire business always remains syncronized. Maître D allows you to see everything within
+                            your business, from one
+                            location.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
     </section>
 
 
