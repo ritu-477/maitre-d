@@ -4,8 +4,8 @@
     --fs-xsm: 14px;
     --fs-sm: 16px;
     --fs-xmd: 20px;
-    --fs-md: 23.83px;
-    --fs-xlg: 24px;
+    --fs-md: 21px;
+    --fs-xlg: 23.83px;
     --fs-lg: 26px;
     --fs-xl: 36px;
     /* font-color */
@@ -16,12 +16,12 @@
     --fc-linear-orange1: #fd9b2b;
     --fc-linear-orange2: #f14f09;
     --fc-white-shadow: #0000000A;
-    --fc-shadow2:#FF586E47;
+    --fc-shadow2: #FF586E47;
     --fc-shadow3: #8256F066;
 }
 
 .clr-black {
-    color:var(--fc-black);
+    color: var(--fc-black);
 }
 
 .clr-white {
@@ -41,11 +41,11 @@
     font-size: var(--fs-lg);
 }
 
-.text-24 {
+.text-23 {
     font-size: var(--fs-xlg);
 }
 
-.text-23 {
+.text-24 {
     font-size: var(--fs-md);
 }
 
@@ -68,7 +68,7 @@
 /* ...............................media-quries */
 @media(min-width:576px) {
     :root {
-        
+        --fs-md: 24px;
         --fs-lg: 40px;
         --fs-xl: 45px;
     }

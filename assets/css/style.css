@@ -302,25 +302,20 @@
     box-shadow: 0px 4px 66px 0px var(--fc-white-shadow);
     background: var(--fc-white);
     max-width: 1016px;
-    padding: 20px 0  0 20px;
+    padding: 34px 0 0 20px;
     /* margin-bottom: 15px;
     min-height: 489px; */
 }
+
 .slick-slide {
     height: inherit !important;
 }
+
 .slick-track {
     display: flex !important;
     margin-bottom: 0 !important;
     margin-top: 40px;
     gap: 20px !important;
-}
-/* .mt_40 {
-    margin-top: 40px;
-} */
-
-.pt_34 {
-    padding-top: 34px;
 }
 
 .btn-buynow {
@@ -348,6 +343,7 @@
 .next-btn {
     display: none !important;
 }
+
 .slick-dots {
     position: absolute;
     bottom: -35px;
@@ -359,11 +355,12 @@
     text-align: center;
 }
 
-.slick-dots li button:before{
+.slick-dots li button:before {
     font-size: 10px !important;
-color: var(--fc-gray) !important;
+    color: var(--fc-gray) !important;
     opacity: .25;
 }
+
 .slick-dots li.slick-active button:before {
     color: var(--fc-linear-orange1) !important;
     opacity: .75;
@@ -409,7 +406,8 @@ color: var(--fc-gray) !important;
     .flex_wrap {
         flex-wrap: wrap;
     }
-         /* .slick-dots {
+
+    /* .slick-dots {
              display:block!important;
          } */
 }
@@ -436,12 +434,17 @@ color: var(--fc-gray) !important;
     .pt_sm_78 {
         padding-top: 78px;
     }
-    .slick-track{
+
+    .slick-track {
         margin-top: 78px !important;
         margin-bottom: 20px !important;
     }
-    .slick-dots
-  
+
+    .py-sm-100 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
 }
 
 @media(min-width:768px) {
@@ -449,6 +452,7 @@ color: var(--fc-gray) !important;
         padding-top: 80px;
         padding-bottom: 103px;
     }
+
 }
 
 @media(min-width:992px) {
@@ -502,6 +506,11 @@ color: var(--fc-gray) !important;
 
     .max-w484 {
         max-width: 484px;
+    }
+
+    .py-lg-191 {
+        padding-top: 191px;
+        padding-bottom: 142px;
     }
 
 
