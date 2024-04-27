@@ -39,6 +39,7 @@ $('.responsive').slick({
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
+                dots: true
             }
         },
 
@@ -47,7 +48,7 @@ $('.responsive').slick({
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                dots: false,
+                dots: true
 
             }
         },

@@ -298,16 +298,25 @@
 
 /* ...........................slider-section........................................ */
 .slider-box {
-    border-radius: 8px;
+    border-radius: 8px !important;
     box-shadow: 0px 4px 66px 0px var(--fc-white-shadow);
     background: var(--fc-white);
     max-width: 1016px;
-    /* min-height: 489px; */
+    /* margin-bottom: 15px;
+    min-height: 489px; */
 }
-
-.mt_40 {
+.slick-slide {
+    height: inherit !important;
+}
+.slick-track {
+    display: flex !important;
+    margin-bottom: 30px;
     margin-top: 40px;
+    gap: 20px !important;
 }
+/* .mt_40 {
+    margin-top: 40px;
+} */
 
 .pt_34 {
     padding-top: 34px;
@@ -329,6 +338,24 @@
 
 .slick-slide>div {
     display: flex;
+}
+
+.prew-btn {
+    display: none !important;
+}
+
+.next-btn {
+    display: none !important;
+}
+.slick-dots {
+    position: absolute;
+    bottom: -35px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
 }
 
 
@@ -368,6 +395,13 @@
     .overflowhidden {
         overflow: hidden !important;
     }
+
+    .flex_wrap {
+        flex-wrap: wrap;
+    }
+         /* .slick-dots {
+             display:block!important;
+         } */
 }
 
 @media(min-width:576px) {
@@ -392,10 +426,10 @@
     .pt_sm_78 {
         padding-top: 78px;
     }
-
-    .mt_sm_78 {
-        margin-top: 78px;
+    .slick-track{
+        margin-top: 78px !important;
     }
+  
 }
 
 @media(min-width:768px) {
@@ -458,17 +492,7 @@
         max-width: 484px;
     }
 
-    .max-w530 {
-        max-width: 530px;
-    }
 
-    .max-w514 {
-        max-width: 514px;
-    }
-
-    .max-w509 {
-        max-width: 509px;
-    }
 }
 
 @media(min-width:1100px) {
@@ -497,12 +521,17 @@
         bottom: 39%;
     }
 
+    .slick-dots {
+        display: none !important;
+    }
+
     .prew-btn {
         border-radius: 50px;
         border: none;
         position: absolute;
         top: 56%;
         left: -3%;
+        display: block !important;
     }
 
     .next-btn {
@@ -511,6 +540,7 @@
         right: -3%;
         border-radius: 50px;
         border: none;
+        display: block !important;
     }
 }
 
