@@ -71,10 +71,6 @@
 
 /* ............max-w.............. */
 
-.max-w484 {
-    max-width: 484px;
-}
-
 .max-w257 {
     max-width: 257px;
 }
@@ -111,9 +107,37 @@
     max-width: 1140px;
 }
 
-/* .max-w729 {
-    max-width: 729px;
-} */
+.home {
+    transition: 0.2s;
+}
+
+.home:hover {
+    color: var(--fc-linear-orange1);
+    text-shadow: 0 0.3px .80px var(--fc-white), 0 0.3px .80px;
+}
+
+.bt-line1::after {
+    content: "";
+    width: 0%;
+    height: 1.5px;
+    position: absolute;
+    background: var(--fc-linear-orange1);
+    bottom: 0;
+    left: 0;
+    transition: 0.2s;
+}
+
+.bt-line1:hover::after {
+    width: 100%;
+}
+
+.svg1 {
+    transition: 0.2s;
+}
+
+.svg1:hover path {
+    fill: var(--fc-linear-orange1);
+}
 
 .btn-sumbit {
     padding: 12px 38px;
@@ -163,6 +187,10 @@
 
 .pb_14 {
     padding-bottom: 14px;
+}
+
+.pb_21 {
+    padding-bottom: 21px;
 }
 
 /* ........................................section-3-features.......................... */
@@ -218,9 +246,14 @@
     right: 0;
 }
 
+.card-box {
+    transition: 0, 5s;
+}
+
 .card-box:hover {
     background: linear-gradient(96.64deg, var(--fc-linear-orange1) 13.58%, var(--fc-linear-orange2) 86.99%);
     transform: translateY(-20px);
+    cursor: pointer;
 }
 
 .card-box:hover .circle1 {
@@ -257,9 +290,45 @@
     background: var(--fc-white);
     color: var(--fc-linear-orange1);
 }
-.shadow-circle{
+
+.shadow-circle {
     box-shadow: 0px 4px 17px 0px var(--fc-shadow3);
     box-shadow: 0px 4px 17px 0px #8256F066;
+}
+
+/* ...........................slider-section........................................ */
+.slider-box {
+    border-radius: 8px;
+    box-shadow: 0px 4px 66px 0px var(--fc-white-shadow);
+    background: var(--fc-white);
+    max-width: 1016px;
+    /* min-height: 489px; */
+}
+
+.mt_40 {
+    margin-top: 40px;
+}
+
+.pt_34 {
+    padding-top: 34px;
+}
+
+.btn-buynow {
+    padding: 12px 37px;
+    background: linear-gradient(96.64deg, var(--fc-linear-orange1) 13.58%, var(--fc-linear-orange2) 86.99%);
+    border-radius: 30.5px;
+    border: 1px solid var(--fc-linear-orange1);
+    transition: 1s;
+    margin-bottom: 38px;
+}
+
+.btn-buynow:hover {
+    background: var(--fc-white);
+    color: var(--fc-linear-orange1);
+}
+
+.slick-slide>div {
+    display: flex;
 }
 
 
@@ -323,6 +392,10 @@
     .pt_sm_78 {
         padding-top: 78px;
     }
+
+    .mt_sm_78 {
+        margin-top: 78px;
+    }
 }
 
 @media(min-width:768px) {
@@ -338,12 +411,6 @@
         padding-bottom: 103px;
     }
 
-    .absolute1 {
-        position: absolute;
-        top: 49%;
-        left: 5%;
-    }
-
     .pb-sm-59 {
         padding-bottom: 59px;
     }
@@ -357,6 +424,12 @@
         padding-bottom: none;
     }
 
+    .absolute1 {
+        position: absolute;
+        top: 49%;
+        left: 8%;
+    }
+
     .absolute4 {
         position: absolute;
         right: 14%;
@@ -368,14 +441,45 @@
         left: 0;
         bottom: 39%;
     }
+
+    .absolute6 {
+        top: 29%;
+        position: absolute;
+        right: 12%
+    }
+
+    .absolute6 {
+        top: 8%;
+        position: absolute;
+        right: 6%
+    }
+
+    .max-w484 {
+        max-width: 484px;
+    }
+
+    .max-w530 {
+        max-width: 530px;
+    }
+
+    .max-w514 {
+        max-width: 514px;
+    }
+
+    .max-w509 {
+        max-width: 509px;
+    }
 }
 
-@media(min-width:1200px) {
+@media(min-width:1100px) {
     .absolute1 {
         position: absolute;
         top: 49%;
         left: 12%;
     }
+}
+
+@media(min-width:1200px) {
 
     .h_210 {
         height: 210px
@@ -392,14 +496,25 @@
         left: 5%;
         bottom: 39%;
     }
+
+    .prew-btn {
+        border-radius: 50px;
+        border: none;
+        position: absolute;
+        top: 56%;
+        left: -3%;
+    }
+
+    .next-btn {
+        position: absolute;
+        top: 56%;
+        right: -3%;
+        border-radius: 50px;
+        border: none;
+    }
 }
 
 @media(min-width:1400px) {
-    .absolute1 {
-        position: absolute;
-        top: 49%;
-        left: 17%;
-    }
 
     .absolute4 {
         position: absolute;
@@ -411,6 +526,14 @@
         position: absolute;
         left: 13%;
         bottom: 39%;
+    }
+
+    .prew-btn {
+        left: -6%;
+    }
+
+    .next-btn {
+        right: -6%;
     }
 }
 
@@ -426,4 +549,11 @@
         left: 18%;
         bottom: 39%;
     }
+
+    /* .prew-btn{
+        left: 18%;
+    }
+    .next-btn{
+        right: 18%;
+    } */
 }
