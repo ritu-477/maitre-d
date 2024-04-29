@@ -178,7 +178,7 @@
 .line-1::after {
     content: "";
     width: 44px;
-    height: 1px;
+    height: 1px solid var(--fc-black);
     position: absolute;
     margin-left: 12px;
     top: 10px;
@@ -415,7 +415,7 @@
     min-height: 171px;
     border-radius: 10px;
     padding: 40px 25px 41px 21px;
-    border: 1px solid var(--fc-primary-gray);
+    border: 1px solid var(--fc-black) solid var(--fc-primary-gray);
     background: linear-gradient(96.64deg, var(--fc-linear-orange1) 13.58%, var(--fc-linear-orange2) 86.99%);
     margin-bottom: 35px;
 }
@@ -430,6 +430,27 @@
     position: absolute;
     top: 19px;
     right: 27px;
+}
+/* ...........contact-us section */
+.forms{
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+ border-bottom: 1px solid var(--fc-black);
+ padding-bottom: 15px;
+}
+.mt_30{
+    margin-top: 30px;
+}
+.mt-sm-60{
+    margin-top: 60px;
+}
+.resize {
+    resize: none;
+}
+.noscroolbar::-webkit-scrollbar {
+    display: none;
 }
 
 
@@ -508,6 +529,12 @@
     .py-sm-100 {
         padding-top: 100px;
         padding-bottom: 100px;
+    }
+    .pt_sm_73{
+        padding-top: 73px;
+    }
+    .pt_sm_75{
+        padding-top: 75px;
     }
 
 }
@@ -593,7 +620,7 @@
     .absolute9 {
         right: 19%;
         position: absolute;
-        top: 35%;
+        top: 25%;
     }
 
     .absolute10 {
@@ -659,7 +686,7 @@
     .absolute9 {
         right: 24%;
         position: absolute;
-        top: 35%;
+        top: 25%;
     }
 }
 
@@ -687,8 +714,7 @@
 
     .absolute9 {
         right: 28%;
-        position: absolute;
-        top: 35%;
+
     }
     .absolute10{
         left: 24%;
@@ -710,14 +736,6 @@
 
     .absolute9 {
         right: 31%;
-        position: absolute;
-        top: 35%;
     }
 
-    /* .prew-btn{
-        left: 18%;
-    }
-    .next-btn{
-        right: 18%;
-    } */
 }
