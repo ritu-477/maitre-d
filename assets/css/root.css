@@ -8,11 +8,13 @@
     --fs-xlg: 23.83px;
     --fs-lg: 26px;
     --fs-xl: 36px;
+    --fs-xxl:48px;
     /* font-color */
     --fc-black: #000000;
     --fc-white: #fff;
     --fc-primary-white: #fffdfd;
     --fc-gray: #4d4d4d;
+    --fc-primary-gray: #e8e8e8;
     --fc-linear-orange1: #fd9b2b;
     --fc-linear-orange2: #f14f09;
     --fc-white-shadow: #0000000A;
@@ -36,6 +38,9 @@
 /* .....................font-size............ */
 .text-61 {
     font-size: var(--fs-xl);
+}
+.text-48 {
+    font-size: var(--fs-xxl);
 }
 
 .text-40 {

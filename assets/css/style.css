@@ -24,6 +24,10 @@
     font-weight: 600;
 }
 
+.font-500 {
+    font-weight: 500;
+}
+
 .font-400 {
     font-weight: 400;
 }
@@ -369,7 +373,6 @@
 /* ....................................................pricing-section */
 .pricing-box {
     min-height: 542px;
-    max-width: 540px;
     width: 100%;
     box-shadow: 0px 6px 12px 0px var(--fc-white-shadow);
     border-radius: 10px;
@@ -378,7 +381,6 @@
 
 .monthly-box {
     padding: 23px 0 23px 42px;
-    max-width: 540px;
     background: linear-gradient(96.64deg, var(--fc-linear-orange1) 13.58%, var(--fc-linear-orange2) 86.99%);
     border-radius: 10px 10px 0 0;
 }
@@ -399,6 +401,35 @@
     border-radius: 50%;
     background: linear-gradient(96.64deg, var(--fc-linear-orange1) 13.58%, var(--fc-linear-orange2) 86.99%);
     transition: .5s;
+}
+
+.management-box {
+    padding: 35px 42px 38px 41px;
+}
+
+.pb_29 {
+    padding-bottom: 29px;
+}
+
+.platinum-box {
+    min-height: 171px;
+    border-radius: 10px;
+    padding: 40px 25px 41px 21px;
+    border: 1px solid var(--fc-primary-gray);
+    background: linear-gradient(96.64deg, var(--fc-linear-orange1) 13.58%, var(--fc-linear-orange2) 86.99%);
+    margin-bottom: 35px;
+}
+
+.absolute7 {
+    position: absolute;
+    top: 19px;
+    right: 45px;
+}
+
+.absolute8 {
+    position: absolute;
+    top: 19px;
+    right: 27px;
 }
 
 
@@ -547,6 +578,33 @@
         padding-bottom: 142px;
     }
 
+    .platinum-box {
+        max-width: 570px;
+    }
+
+    .pricing-box {
+        max-width: 540px;
+    }
+
+    .monthly-box {
+        max-width: 540px;
+    }
+
+    .absolute9 {
+        right: 19%;
+        position: absolute;
+        top: 35%;
+    }
+
+    .absolute10 {
+        left: 17%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .pb_368 {
+        padding-bottom: 368px;
+    }
 
 }
 
@@ -597,6 +655,12 @@
         border: none;
         display: block !important;
     }
+
+    .absolute9 {
+        right: 24%;
+        position: absolute;
+        top: 35%;
+    }
 }
 
 @media(min-width:1400px) {
@@ -620,6 +684,15 @@
     .next-btn {
         right: -6%;
     }
+
+    .absolute9 {
+        right: 28%;
+        position: absolute;
+        top: 35%;
+    }
+    .absolute10{
+        left: 24%;
+    }
 }
 
 @media(min-width:1750px) {
@@ -633,6 +706,12 @@
         position: absolute;
         left: 18%;
         bottom: 39%;
+    }
+
+    .absolute9 {
+        right: 31%;
+        position: absolute;
+        top: 35%;
     }
 
     /* .prew-btn{
