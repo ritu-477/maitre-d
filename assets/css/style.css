@@ -454,7 +454,39 @@
     display: none;
 }
 
+/* .............................footer.................................. */
 
+.pb_48 {
+    padding-bottom: 48px;
+}
+
+.max-w375 {
+    max-width: 375px;
+}
+
+.bt-line2 {
+    border: 1px solid var(--fc-primary-black1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.absolute11 {
+    position: absolute;
+    left: 0;
+    bottom: 85px;
+}
+
+.absolute12 {
+    position: absolute;
+    left: 68px;
+    bottom: 68px;
+}
+
+.absolute13 {
+    position: absolute;
+    left: 36px;
+    bottom: 0;
+}
 
 @media(max-width:991.99px) {
     .iconbox {
@@ -499,6 +531,10 @@
 
     .max-w618 {
         max-width: 618px;
+    }
+
+    .bg-clr2 {
+        background: var(--fc-black);
     }
 
 }
@@ -548,12 +584,20 @@
         margin-top: 60px;
     }
 
+    .pt_82 {
+        padding-top: 82px;
+    }
+
 }
 
 @media(min-width:768px) {
     .py-128 {
         padding-top: 80px;
         padding-bottom: 103px;
+    }
+
+    .pb_md_147 {
+        padding-bottom: 147px;
     }
 
 }
@@ -643,6 +687,14 @@
     .pb_368 {
         padding-bottom: 368px;
     }
+
+    .bg-image2 {
+        background-image: url("../images/footer-image.png");
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
 
 }
 

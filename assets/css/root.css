@@ -11,6 +11,8 @@
     --fs-xxl:48px;
     /* font-color */
     --fc-black: #000000;
+    --fc-primary-black: #b2b2b2;
+    --fc-primary-black1: #404040;
     --fc-white: #fff;
     --fc-primary-white: #fffdfd;
     --fc-gray: #4d4d4d;
@@ -33,6 +35,9 @@
 
 .clr-gray {
     color: var(--fc-gray);
+}
+.clr-primary-black{
+    color: var(--fc-primary-black);
 }
 
 /* .....................font-size............ */
