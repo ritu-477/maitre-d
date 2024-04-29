@@ -366,6 +366,43 @@
     opacity: .75;
 }
 
+/* ....................................................pricing-section */
+.pricing-box {
+    min-height: 542px;
+    max-width: 540px;
+    width: 100%;
+    box-shadow: 0px 6px 12px 0px var(--fc-white-shadow);
+    border-radius: 10px;
+    background: var(--fc-white);
+}
+
+.monthly-box {
+    padding: 23px 0 23px 42px;
+    max-width: 540px;
+    background: linear-gradient(96.64deg, var(--fc-linear-orange1) 13.58%, var(--fc-linear-orange2) 86.99%);
+    border-radius: 10px 10px 0 0;
+}
+
+
+.white-toogle-box {
+    width: 77.16px;
+    height: 34.72px;
+    border-radius: 20px;
+    background: white;
+}
+
+.orange-toogle-btn {
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 27.01px;
+    height: 27.01px;
+    border-radius: 50%;
+    background: linear-gradient(96.64deg, var(--fc-linear-orange1) 13.58%, var(--fc-linear-orange2) 86.99%);
+    transition: .5s;
+}
+
+
+
 @media(max-width:991.99px) {
     .iconbox {
         width: 30px;
@@ -407,9 +444,6 @@
         flex-wrap: wrap;
     }
 
-    /* .slick-dots {
-             display:block!important;
-         } */
 }
 
 @media(min-width:576px) {

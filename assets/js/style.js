@@ -4,6 +4,11 @@ function openNav() {
     document.body.classList.toggle("overflowhidden")
 }
 
+const toogleBtn = document.getElementById("toogleBtn");
+toogleBtn.addEventListener("click", function () {
+    toogleBtn.classList.toggle("justify-content-end")
+})
+
 
 
 $('.responsive').slick({
