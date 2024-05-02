@@ -481,21 +481,17 @@
     content: "";
     position: absolute;
     height: 1px;
+    width: 0;
     background: var(--fc-white);
     bottom: -1px;
     left: 0;
-    transition: 0.2s;
+    transition: 0.5s;
 }
 
 .bt-line3:hover::after {
     width: 100%;
 }
-
-.navigation {
-    transition: 0.2s;
-}
-
-.navigation:hover {
+.bt-line3:hover {
     color: var(--fc-white);
     text-shadow: 0 0.3px .80px var(--fc-white), 0 0.3px .80px;
 }
@@ -514,9 +510,9 @@
 
 .topBtn {
     border-radius: 50px;
-    display: none;
+    visibility: hidden;
     position: fixed;
-    bottom: 5px;
+    bottom: 10px;
     right: 14px;
     border: none;
     outline: none;
@@ -528,7 +524,7 @@
 }
 
 .topBtn.show {
-    display: block;
+    visibility: visible;
 }
 
 .topBtn:active {

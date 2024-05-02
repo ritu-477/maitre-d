@@ -1,4 +1,3 @@
-
 function openNav() {
     document.getElementById("navbar").classList.toggle("start-0");
     document.body.classList.toggle("overflowhidden")
@@ -19,7 +18,7 @@ const mybutton = document.querySelector(".topBtn");
 const show = document.querySelector(".show")
 
 window.addEventListener("scroll", function () {
-    if (window.scrollY > 60) {
+    if (window.scrollY > 600) {
         mybutton.classList.add("show")
     }
     else {
