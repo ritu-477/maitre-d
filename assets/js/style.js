@@ -6,7 +6,13 @@ function openNav() {
 
 const toogleBtn = document.getElementById("toogleBtn");
 toogleBtn.addEventListener("click", function () {
-    toogleBtn.classList.toggle("justify-content-end")
+    toogleBtn.classList.toggle("justify-content-end");
+    document.querySelector(".doller").classList.toggle("d_none");
+    document.querySelector(".month").classList.toggle("d_none");
+    document.querySelector(".l_doller").classList.toggle("d_block");
+    document.querySelector(".year").classList.toggle("d_block");
+    document.querySelector(".management-box1").classList.toggle("d_none");
+    document.querySelector(".management-box2").classList.toggle("d_block");
 })
 
 

@@ -94,8 +94,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed;
-    height: 100%; */
 }
 
 .py-128 {
@@ -178,7 +176,7 @@
 .line-1::after {
     content: "";
     width: 44px;
-    height: 1px solid var(--fc-black);
+    height: 1px;
     position: absolute;
     margin-left: 12px;
     top: 10px;
@@ -297,7 +295,6 @@
 
 .shadow-circle {
     box-shadow: 0px 4px 17px 0px var(--fc-shadow3);
-    box-shadow: 0px 4px 17px 0px #8256F066;
 }
 
 /* ...........................slider-section........................................ */
@@ -307,8 +304,6 @@
     background: var(--fc-white);
     max-width: 1016px;
     padding: 34px 0 0 20px;
-    /* margin-bottom: 15px;
-    min-height: 489px; */
 }
 
 .slick-slide {
@@ -380,7 +375,7 @@
 }
 
 .monthly-box {
-    padding: 23px 0 23px 42px;
+    padding: 10px 0 10px 20px;
     background: linear-gradient(96.64deg, var(--fc-linear-orange1) 13.58%, var(--fc-linear-orange2) 86.99%);
     border-radius: 10px 10px 0 0;
 }
@@ -404,7 +399,7 @@
 }
 
 .management-box {
-    padding: 35px 42px 38px 41px;
+    padding: 25px 20px 20px 20px;
 }
 
 .pb_29 {
@@ -486,6 +481,41 @@
     position: absolute;
     left: 36px;
     bottom: 0;
+}
+
+.bt-line3::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background: var(--fc-white);
+    bottom: -1px;
+    left: 0;
+    transition: 0.2s;
+}
+
+.bt-line3:hover::after {
+    width: 100%;
+}
+
+.navigation {
+    transition: 0.2s;
+}
+
+.navigation:hover {
+    color: var(--fc-white);
+    text-shadow: 0 0.3px .80px var(--fc-white), 0 0.3px .80px;
+}
+
+.pb-34 {
+    padding-bottom: 34px;
+}
+
+.d_none {
+    display: none !important;
+}
+
+.d_block {
+    display: block !important;
 }
 
 @media(max-width:991.99px) {
@@ -588,6 +618,14 @@
         padding-top: 82px;
     }
 
+    .monthly-box {
+        padding: 23px 0 23px 42px;
+    }
+
+    .management-box {
+        padding: 35px 42px 38px 41px;
+    }
+
 }
 
 @media(min-width:768px) {
@@ -596,8 +634,8 @@
         padding-bottom: 103px;
     }
 
-    .pb_md_147 {
-        padding-bottom: 147px;
+    .pb_md_100 {
+        padding-bottom: 100px;
     }
 
 }
@@ -686,6 +724,10 @@
 
     .pb_368 {
         padding-bottom: 368px;
+    }
+
+    .pb_lg_147 {
+        padding-bottom: 147px;
     }
 
     .bg-image2 {
