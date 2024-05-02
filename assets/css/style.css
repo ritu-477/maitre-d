@@ -473,12 +473,6 @@
 
 .absolute12 {
     position: absolute;
-    left: 68px;
-    bottom: 68px;
-}
-
-.absolute13 {
-    position: absolute;
     left: 36px;
     bottom: 0;
 }
