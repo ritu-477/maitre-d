@@ -7,8 +7,8 @@
     --fs-md: 21px;
     --fs-xlg: 23.83px;
     --fs-lg: 26px;
-    --fs-xl: 36px;
-    --fs-xxl:48px;
+    --fs-xl: 27px;
+    --fs-xxl: 48px;
     /* font-color */
     --fc-black: #000000;
     --fc-primary-black: #b2b2b2;
@@ -36,7 +36,8 @@
 .clr-gray {
     color: var(--fc-gray);
 }
-.clr-primary-black{
+
+.clr-primary-black {
     color: var(--fc-primary-black);
 }
 
@@ -44,6 +45,7 @@
 .text-61 {
     font-size: var(--fs-xl);
 }
+
 .text-48 {
     font-size: var(--fs-xxl);
 }
@@ -87,12 +89,13 @@
 
 @media(min-width:768px) {
     :root {
-        --fs-xl: 61px;
+        --fs-xl: 50px;
     }
 }
 
 @media(min-width:992px) {
     :root {
         --fs-lg: 50px;
+        --fs-xl: 61px;
     }
 }

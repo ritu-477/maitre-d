@@ -518,6 +518,30 @@
     display: block !important;
 }
 
+.topBtn {
+    border-radius: 50px;
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 14px;
+    border: none;
+    outline: none;
+    background-color: var(--fc-linear-orange2);
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 0px 0px 30px 0px var(--fc-linear-orange2);
+    z-index: 3;
+}
+
+.topBtn.show {
+    display: block;
+}
+
+.topBtn:active {
+    transform: translateY(5px);
+}
+
+
 @media(max-width:991.99px) {
     .iconbox {
         width: 30px;
@@ -575,7 +599,7 @@
     }
 
     .py-128 {
-        padding-top: 60px;
+        padding-top: 30px;
         padding-bottom: 103px;
     }
 
@@ -630,7 +654,7 @@
 
 @media(min-width:768px) {
     .py-128 {
-        padding-top: 80px;
+        padding-top: 30px;
         padding-bottom: 103px;
     }
 
