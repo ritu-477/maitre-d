@@ -96,9 +96,8 @@
     background-size: cover;
 }
 
-.py-128 {
-    padding-top: 30px;
-    padding-bottom: 103px;
+.pt-128 {
+    padding-top: 50px;
 }
 
 .max-w443 {
@@ -491,6 +490,7 @@
 .bt-line3:hover::after {
     width: 100%;
 }
+
 .bt-line3:hover {
     color: var(--fc-white);
     text-shadow: 0 0.3px .80px var(--fc-white), 0 0.3px .80px;
@@ -588,18 +588,12 @@
         padding-bottom: 40px;
     }
 
-    .py-128 {
-        padding-top: 30px;
-        padding-bottom: 103px;
+    .pt-128 {
+        padding-top: 70px;
     }
 
     .line-h71 {
         line-height: 71.76px;
-    }
-
-    .py-md-90 {
-        padding-top: 90px;
-        padding-bottom: 90px;
     }
 
     .pt_sm_78 {
@@ -612,7 +606,7 @@
     }
 
     .py-sm-100 {
-        padding-top: 100px;
+        /* padding-top: 100px; */
         padding-bottom: 100px;
     }
 
@@ -643,10 +637,6 @@
 }
 
 @media(min-width:768px) {
-    .py-128 {
-        padding-top: 30px;
-        padding-bottom: 103px;
-    }
 
     .pb_md_100 {
         padding-bottom: 100px;
@@ -655,9 +645,8 @@
 }
 
 @media(min-width:992px) {
-    .py-128 {
+    .pt-128 {
         padding-top: 128px;
-        padding-bottom: 103px;
     }
 
     .pb-sm-59 {
@@ -668,21 +657,16 @@
         max-width: 453px;
     }
 
-    .py-md-90 {
-        padding-top: none;
-        padding-bottom: none;
-    }
-
     .absolute1 {
         position: absolute;
-        top: 49%;
+        top: 64%;
         left: 8%;
     }
 
     .absolute4 {
         position: absolute;
         right: 14%;
-        top: 24%;
+        top: 22%;
     }
 
     .absolute5 {
@@ -707,8 +691,7 @@
         max-width: 484px;
     }
 
-    .py-lg-191 {
-        padding-top: 191px;
+    .pb-lg-142 {
         padding-bottom: 142px;
     }
 
@@ -727,7 +710,7 @@
     .absolute9 {
         right: 19%;
         position: absolute;
-        top: 25%;
+        top: 20%;
     }
 
     .absolute10 {
@@ -736,8 +719,8 @@
         bottom: 0;
     }
 
-    .pb_368 {
-        padding-bottom: 368px;
+    .pb_298 {
+        padding-bottom: 298px;
     }
 
     .pb_lg_147 {
@@ -757,7 +740,6 @@
 @media(min-width:1100px) {
     .absolute1 {
         position: absolute;
-        top: 49%;
         left: 12%;
     }
 }
@@ -771,7 +753,7 @@
     .absolute4 {
         position: absolute;
         right: 20%;
-        top: 29%;
+        top: 27%;
     }
 
     .absolute5 {
@@ -805,7 +787,6 @@
     .absolute9 {
         right: 24%;
         position: absolute;
-        top: 25%;
     }
 }
 
@@ -814,7 +795,6 @@
     .absolute4 {
         position: absolute;
         right: 22%;
-        top: 29%;
     }
 
     .absolute5 {
@@ -850,8 +830,8 @@
 @media(min-width:1750px) {
     .absolute4 {
         position: absolute;
-        right: 28%;
-        top: 29%;
+        right: 26%;
+        top: 27%;
     }
 
     .absolute5 {
@@ -861,7 +841,7 @@
     }
 
     .absolute9 {
-        right: 31%;
+        right: 32%;
     }
 
     .absolute10 {

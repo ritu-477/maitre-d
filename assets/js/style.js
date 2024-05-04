@@ -39,8 +39,8 @@ $('.responsive').slick({
     autoplay: false,
     slidesToShow: 1,
     slidesToScroll: 1,
-    nextArrow: ".prew-btn",
-    prevArrow: ".next-btn",
+    nextArrow: ".next-btn",
+    prevArrow: ".prew-btn",
     responsive: [
         {
             breakpoint: 1440,
